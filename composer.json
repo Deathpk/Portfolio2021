@@ -53,6 +53,10 @@
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
         ],
+        "postinstall":[
+            "npm run prod"
+        ], 
+        
         "post-install-cmd": [
             "php artisan clear-compiled",
             "chmod -R 777 public/"
