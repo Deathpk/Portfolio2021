@@ -15,7 +15,6 @@ class sendMessage extends Controller
            'email'=>strtolower($request->email),
            'mensagem'=>$request->mensagem
         ];
-        // return new \App\Mail\contactMe($dadosRemetente);// Somente para debugar na view...
         Mail::send(new contactMe($dadosRemetente));
         
         if(Mail::failures()){

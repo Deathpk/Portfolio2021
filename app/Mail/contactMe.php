@@ -20,7 +20,6 @@ class contactMe extends Mailable
     public function __construct($dadosRemetente)
     {
         $this->user = $dadosRemetente;
-        // dd($this->user['email']);
     }
 
     /**
@@ -33,7 +32,7 @@ class contactMe extends Mailable
         $this->subject('Novo contato no portfólio');
         $this->to('bettercallmiguel@gmail.com');
         $this->from($this->user['email'], $this->user['nome']);
-
+        
         return $this->markdown('mail.contactMe',[
             'email'=>$this->user['email'],
             'name'=>$this->user['nome'],
