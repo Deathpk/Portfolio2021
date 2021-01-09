@@ -51,7 +51,7 @@
     <header id="inicio">
         <div class="container-fluid cover-image">
             <div class="image-wrapper">
-                <img src="{{asset('images/bg.jpg')}}" alt="Um macbook pro Aberto">
+                <img src="{{secure_asset('images/bg.jpg')}}" alt="Um macbook pro Aberto">
             </div>
         </div>
         <div class="banner">
@@ -67,7 +67,7 @@
             </div>
 
             <div class="profile-wrapper">
-                <img src="{{asset('images/profilePic.jpg')}}" alt="">
+                <img src="{{secure_asset('images/profilePic.jpg')}}" alt="">
             </div>
 
             <div class="aboutDescription">
@@ -183,8 +183,8 @@
                 
                 <div class="card">
                     <div class="container project-img">
-                        <a href="{{asset('images/ApoieoCorpo.jpg')}}" data-toggle="lightbox" data-gallery="projects" data-type="image">
-                            <img src="{{asset('images/ApoieoCorpo.jpg')}}" class="card-img-top" alt="...">
+                        <a href="{{secure_asset('images/ApoieoCorpo.jpg')}}" data-toggle="lightbox" data-gallery="projects" data-type="image">
+                            <img src="{{secure_asset('images/ApoieoCorpo.jpg')}}" class="card-img-top" alt="...">
                         </a>
                     </div>
 
@@ -197,8 +197,8 @@
 
                 <div class="card">
                     <div class="container project-img">
-                        <a href="{{asset('images/SistemaLanchonete.jpg')}}" data-toggle="lightbox" data-gallery="projects" data-type="image">
-                            <img src="{{asset('images/SistemaLanchonete.jpg')}}" class="card-img-top" alt="...">
+                        <a href="{{secure_asset('images/SistemaLanchonete.jpg')}}" data-toggle="lightbox" data-gallery="projects" data-type="image">
+                            <img src="{{secure_asset('images/SistemaLanchonete.jpg')}}" class="card-img-top" alt="...">
                         </a>
                     </div>
 
@@ -211,8 +211,8 @@
 
                 <div class="card">
                     <div class="container project-img">
-                        <a href="{{asset('images/Xadrez.jpg')}}" data-toggle="lightbox" data-gallery="projects" data-type="image">
-                                <img src="{{asset('images/Xadrez.jpg')}}" class="card-img-top" alt="...">
+                        <a href="{{secure_asset('images/Xadrez.jpg')}}" data-toggle="lightbox" data-gallery="projects" data-type="image">
+                                <img src="{{secure_asset('images/Xadrez.jpg')}}" class="card-img-top" alt="...">
                         </a>
                     </div>  
                    <div class="card-body">
