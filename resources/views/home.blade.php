@@ -51,7 +51,7 @@
     <header id="inicio">
         <div class="container-fluid cover-image">
             <div class="image-wrapper">
-                <img src="{{secure_asset('images/bg.jpg')}}" alt="Um macbook pro Aberto">
+                <img src="{{asset('images/bg.jpg')}}" alt="Um macbook pro Aberto">
             </div>
         </div>
         <div class="banner">
@@ -67,7 +67,7 @@
             </div>
 
             <div class="profile-wrapper">
-                <img src="{{secure_asset('images/profilePic.jpg')}}" alt="">
+                <img src="{{asset('images/profilePic.jpg')}}" alt="">
             </div>
 
             <div class="aboutDescription">
@@ -88,91 +88,55 @@
             <div class="conhecimentos-header">
                 <h1>Conhecimentos</h1>
             </div>
-            <div class="conhecimentos-title">
-                <h3><i class="fas fa-cogs"></i> Backend</h3>
-            </div>
+
             <div class="container-fluid conhecimentos-content">
-                <div class="row">
-                    <div class="col-sm">
+                <div class="card conhecimentos-card">
+                    <div class="img-wrapper">
+                        <img src="{{asset('images/backend.jpg')}}" class="card-img-top" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2><i class="fas fa-cogs"></i> Backend</h2>
                         <h5><i class="fab fa-php" id="php"></i> PHP</h5>
-                    </div>
-                    <div class="col-sm">
-
-                    </div>
-                    <div class="col-sm">
-
-                    </div>
-                    <div class="col-sm">
-                        <h5><i class="fab fa-laravel" id="laravel"></i> Laravel</h5>
+                        <h5><i class="fab fa-laravel"></i> Laravel</h5>
                     </div>
                 </div>
-            </div>
 
-            <div class="conhecimentos-title">
-                <h3><i class="fas fa-code"></i> Frontend</h3>
-            </div>
-
-            <div class="container-fluid conhecimentos-content">
-                <div class="row">
-                    <div class="col-sm">
+                <div class="card conhecimentos-card">
+                    <div class="img-wrapper">
+                        <img src="{{asset('images/frontend.jpg')}}" class="card-img-top" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2><i class="fas fa-code"></i> Frontend</h2>
                         <h5><i class="fab fa-js"></i> JavaScript</h5>
-                    </div>
-                    <div class="col-sm">
-
-                    </div>
-                    <div class="col-sm">
-
-                    </div>
-                    <div class="col-sm">
                         <h5><i class="fab fa-vuejs"></i> Vue Js</h5>
                     </div>
                 </div>
-            </div>
 
-            <div class="conhecimentos-title">
-                <h3><i class="fas fa-database"></i> Banco de Dados</h3>
-            </div>
-
-            <div class="container-fluid conhecimentos-content">
-                <div class="row">
-                    <div class="col-sm">
+                <div class="card conhecimentos-card">
+                    <div class="img-wrapper">
+                        <img src="{{asset('images/database.jpg')}}" class="card-img-top" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2><i class="fas fa-database"></i> Banco de Dados</h2>
                         <h5><i class="fas fa-database"></i> Mysql</h5>
-                    </div>
-                    <div class="col-sm">
-
-                    </div>
-                    <div class="col-sm">
-
-                    </div>
-                    <div class="col-sm">
                         <h5><i class="fas fa-database"></i> Sqlsrv</h5>
                     </div>
                 </div>
-            </div>
 
-            <div class="conhecimentos-title">
-                <h3><i class="fas fa-code-branch"></i> Controle de Versão</h3>
-            </div>
-
-            <div class="container-fluid conhecimentos-content">
-                <div class="row">
-                    <div class="col-sm">
+                <div class="card conhecimentos-card">
+                    <div class="img-wrapper">
+                        <img src="{{asset('images/versionamento.jpg')}}" class="card-img-top" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2><i class="fas fa-code-branch"></i> Controle de Versão</h2>
                         <h5><i class="fab fa-gitlab"></i> GitLab</h5>
-                    </div>
-                    <div class="col-sm">
-
-                    </div>
-                    <div class="col-sm">
-
-                    </div>
-                    <div class="col-sm">
                         <h5><i class="fab fa-github"></i> GitHub</h5>
                     </div>
                 </div>
             </div>
-
+            
         </div>
-    </section>    
+    </section>   
 
     <div class="container-fluid" >
         <div class="projetos-header"id="projetos-session">
@@ -183,8 +147,8 @@
                 
                 <div class="card">
                     <div class="container project-img">
-                        <a href="{{secure_asset('images/ApoieoCorpo.jpg')}}" data-toggle="lightbox" data-gallery="projects" data-type="image">
-                            <img src="{{secure_asset('images/ApoieoCorpo.jpg')}}" class="card-img-top" alt="...">
+                        <a href="{{asset('images/ApoieoCorpo.jpg')}}" data-toggle="lightbox" data-gallery="projects" data-type="image">
+                            <img src="{{asset('images/ApoieoCorpo.jpg')}}" class="card-img-top" alt="...">
                         </a>
                     </div>
 
@@ -197,8 +161,8 @@
 
                 <div class="card">
                     <div class="container project-img">
-                        <a href="{{secure_asset('images/SistemaLanchonete.jpg')}}" data-toggle="lightbox" data-gallery="projects" data-type="image">
-                            <img src="{{secure_asset('images/SistemaLanchonete.jpg')}}" class="card-img-top" alt="...">
+                        <a href="{{asset('images/SistemaLanchonete.jpg')}}" data-toggle="lightbox" data-gallery="projects" data-type="image">
+                            <img src="{{asset('images/SistemaLanchonete.jpg')}}" class="card-img-top" alt="...">
                         </a>
                     </div>
 
@@ -211,8 +175,8 @@
 
                 <div class="card">
                     <div class="container project-img">
-                        <a href="{{secure_asset('images/Xadrez.jpg')}}" data-toggle="lightbox" data-gallery="projects" data-type="image">
-                                <img src="{{secure_asset('images/Xadrez.jpg')}}" class="card-img-top" alt="...">
+                        <a href="{{asset('images/Xadrez.jpg')}}" data-toggle="lightbox" data-gallery="projects" data-type="image">
+                                <img src="{{asset('images/Xadrez.jpg')}}" class="card-img-top" alt="...">
                         </a>
                     </div>  
                    <div class="card-body">
