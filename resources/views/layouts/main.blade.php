@@ -12,12 +12,12 @@
         <!-- Lightbox Bootstrap -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
         <!-- CSS CUSTOM-->
-        <link rel="stylesheet" href="{{asset('css/all.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/all.css')}}">
         <title>@yield('title')</title>
     </head>
     <body>
         @yield('content')
-        <script src="{{asset('js/scripts.js')}}"></script>
+        <script src="{{secure_asset('js/scripts.js')}}"></script>
         <section>
             <footer>
                 <div class="footer-content">
