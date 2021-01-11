@@ -106,7 +106,7 @@ $(function () {
 
   function onReady(callback) {
     var intervalId = window.setInterval(function () {
-      if (document.getElementsByTagName('body')[0] !== undefined) {
+      if (document.getElementsByTagName('html')[0] !== undefined) {
         window.clearInterval(intervalId);
         callback.call(this);
       }
@@ -165,8 +165,8 @@ $(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\Portfolio2021\resources\js\scripts.js */"./resources/js/scripts.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\Portfolio2021\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\Portfolio2021Dev\resources\js\scripts.js */"./resources/js/scripts.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\Portfolio2021Dev\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
