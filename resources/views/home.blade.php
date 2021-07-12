@@ -3,7 +3,7 @@
 
 @section('content')
 
-    
+
 
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -35,7 +35,7 @@
     <section class="sessao-carregando">
         <div class="lds-heart"><div></div></div>
     </section>
-    
+
     @if(Session::has('error'))
         <div class="alert alert-danger" id="error">
             {{Session::get('error')}}
@@ -71,15 +71,7 @@
             </div>
 
             <div class="aboutDescription">
-                <p>Comecei minha jornada por volta de 2017 , quando senti interesse na área de Desenvolvimento , e como tudo era feito e arquitetado.
-                   Nessa época comecei a estudar por conta própria a primeira linguagem que aprendi , o C. Seguindo alguns tutoriais , fóruns na internet
-                   e também interagindo com a comunidade fui ampliando mais e mais o meu conhecimento na linguagem. Até que no ano de 2018 decidi que iria começar um
-                   curso superior na área , então me matriculei na Universidade Estácio de Sá e comecei o curso de Análise e Desenvolvimento de Software. Logo migrei do C para o C++ , e logo depois do C++ para o C#.
-                   Logo depois , ingressei em um Estágio no Tribunal de Justiça Militar como Desenvolvedor Web , utilizando a linguagem PHP e os frameworks
-                   Laravel e CodeIgniter. Foi nesse Estágio em que adquiri a maior parte das minhas habilidades , lá aprendi bastante sobre regras de negócio , controle 
-                   de versão , o próprio PHP e o Laravel (nunca tinha trabalhado em um sistema web antes) , REST API , e muito mais! . Sou muito grato por toda a equipe por ter me 
-                   proporcionado toda essa bagagem de conhecimento , e agora estou a procura de novas oportunidades na área , e também trabalhando com alguns projetos freelancer.
-                </p>
+                <p>Me chamo Michel , 24 anos , e sou Desenvolvedor de Software a 1 ano e meio quase...  Comecei aprendendo a linguagem C por conta própria , depois migrei para o C++ e logo após para o C#. Em 2018 me matriculei em um curso de ADS na Instituição Estácio De Sá , e em 2020 tive a oportunidade de estagiar no Tribunal de Justiça Militar , onde pude trabalhar com a linguagem PHP , e os frameworks Laravel e Codeigniter. Atualmente trabalho como Desenvolvedor Júnior em uma Travel Tech que amo, chamada Onfly. Aqui as ferramentas que utilizo são: Laravel , Vue Js , Docker e Quasar Framework. Aqui também tenho aprendido as melhores práticas de programação , e como fazer um código de qualidade , que funcione , seja performático , e que possa ser facilmente entendido por outras pessoas. Sou muito grato a toda equipe pela oportunidade!</p>
             </div>
     </div>
 
@@ -134,9 +126,9 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
-    </section>   
+    </section>
 
     <div class="container-fluid" >
         <div class="projetos-header"id="projetos-session">
@@ -144,7 +136,7 @@
         </div>
         <div class="projetos">
             <div class="card-deck">
-                
+
                 <div class="card">
                     <div class="container project-img">
                         <a href="{{secure_asset('images/ApoieoCorpo.jpg')}}" data-toggle="lightbox" data-gallery="projects" data-type="image">
@@ -178,7 +170,7 @@
                         <a href="{{secure_asset('images/Xadrez.jpg')}}" data-toggle="lightbox" data-gallery="projects" data-type="image">
                                 <img src="{{secure_asset('images/Xadrez.jpg')}}" class="card-img-top" alt="...">
                         </a>
-                    </div>  
+                    </div>
                    <div class="card-body">
                         <h5 class="card-title">Xadrez In Console</h5>
                         <p class="card-text">Um jogo de Xadrez pelo console , feito em C#</p>
