@@ -153,15 +153,15 @@
 
                 <div class="card">
                     <div class="container project-img">
-                        <a href="{{secure_asset('images/SistemaLanchonete.jpg')}}" data-toggle="lightbox" data-gallery="projects" data-type="image">
-                            <img src="{{secure_asset('images/SistemaLanchonete.jpg')}}" class="card-img-top" alt="...">
+                        <a href="{{secure_asset('images/mj-eletronica.png')}}" data-toggle="lightbox" data-gallery="projects" data-type="image">
+                            <img src="{{secure_asset('images/mj-eletronica.png')}}" class="card-img-top" alt="...">
                         </a>
                     </div>
 
                     <div class="card-body">
-                        <h5 class="card-title">Sistema Lanchonete PDV</h5>
-                        <p class="card-text">Um Sistema PDV para Lanchonetes.</p>
-                        <a class="btn btn-sm btn-dark" href="https://github.com/Deathpk/SistemaLanchonete-1.0">Saiba Mais</a>
+                        <h5 class="card-title">Landing Page para assistência técnica</h5>
+                        <p class="card-text">Uma landing page feita para uma assistência técnica em eletrônica , utilizando bootstrap</p>
+                        <a class="btn btn-sm btn-dark" href="#">Saiba Mais</a>
                     </div>
                 </div>
 
@@ -175,6 +175,19 @@
                         <h5 class="card-title">Xadrez In Console</h5>
                         <p class="card-text">Um jogo de Xadrez pelo console , feito em C#</p>
                         <a class="btn btn-sm btn-dark" href="https://github.com/Deathpk/XadrezConsole">Saiba Mais</a>
+                   </div>
+                </div>
+
+                <div class="card">
+                    <div class="container project-img">
+                        <a href="{{secure_asset('images/photographer.png')}}" data-toggle="lightbox" data-gallery="projects" data-type="image">
+                                <img src="{{secure_asset('images/photographer.png')}}" class="card-img-top" alt="...">
+                        </a>
+                    </div>
+                   <div class="card-body">
+                        <h5 class="card-title">Portifólio para fotógrafos</h5>
+                        <p class="card-text">Esse é um portfólio para fotógrafos feito com Vue JS e Vuetify.</p>
+                        <a class="btn btn-sm btn-dark" href="#">Saiba Mais</a>
                    </div>
                 </div>
 
